@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>css selector</title>
+        <meta charset="utf-8">
+        <!--<style>
+            #haha.abc {
+                color: red;
+            }
+            .abc {
+                color: brown;
+            }
+            ol {
+                color: seagreen;
+            }
+            #haha {
+                color: blue;
+            }
+        </style>-->
+        <style>
+            h1:hover{
+                color: red;
+            }
+            p:active{
+                color: royalblue;
+            }
+            li:first-child{
+                color: saddlebrown;
+                font-size: 50px ;
+            }
+            li:last-child{
+                color: sandybrown;
+                font-size: 20px;
+            }
+        </style>
+        <!--<style>
+            .box {
+                width: 50%;
+                height: 50px;
+                background-color: red;
+            }
+            .box::before{
+                content: "tôi là Nguyễn Minh Thuận";
+                display: block;
+                width: 50%;
+                height: 20px;
+                background-color:springgreen;
+            }
+            .box::after{
+                content: "";
+                display: block;
+                width: 20%;
+                height: 20px;
+                background-color:yellow;
+            }
+            h1::first-letter{
+                color: violet;
+                font-size: 40px;
+            }
+            h1::first-line{
+                color:seagreen;
+                font-size: 60px;
+            }
+            ::selection{
+                background-color: silver;
+                color: tomato;
+            }
+            
+        </style>-->
+         <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="box"></div>
+        <div>
+            <h1>Học bài css selector <br> học bài</h1>
+            <p>Chú ý 1 số cái quan trọng</p>
+            <ol style="color: black;" id="haha" class="abc">
+                <li id="abcdd">Manchester United</li>
+                <li>Bruno</li>
+                <li>Pogba</li>
+                <li>Rashford</li>
+            </ol>
+        </div>
+    </body>
+</html>

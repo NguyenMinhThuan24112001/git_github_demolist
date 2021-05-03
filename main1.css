@@ -1,0 +1,14 @@
+:root{
+    --thuanyeu-anh: red;
+    --abcd : blue;
+}
+ol {
+    color: var(--thuanyeu-anh);
+}
+h1 {
+    color: var(--abcd);
+    font-size: 100px;
+}
+h2 {
+    color: aqua;
+}
